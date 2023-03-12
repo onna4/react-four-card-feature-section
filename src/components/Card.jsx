@@ -8,7 +8,7 @@ function Card(props) {
         <article className='card'>
           <h1 className='cardHead'>{props.heading}</h1>
           <p className='paragraph'>{props.paragraph}</p>
-          <img src={`/${props.image}`} alt={props.alt} />
+          <img src={props.image} alt={props.alt} />
         </article>
     </main>
   )
