@@ -24,7 +24,7 @@ body {
   font-family: var(--font-poppins);
   background-color: var(--Very-Light-Gray);
 }
-main {
+.wrapper {
   display: grid;
   place-items: center;
   gap: 1rem;
@@ -86,8 +86,8 @@ header .paragraph {
   .wrapper {
     grid-template-columns: repeat(3, 30%);
     grid-template-rows: 100px;
+    height: 100vh;
   }
-  
   header .paragraph {
     margin: 0 20%;
   }

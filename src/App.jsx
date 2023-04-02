@@ -15,7 +15,9 @@ function App() {
   return (
     <div className="App">
       <Header />
-      {cardDetails}
+      <main className="wrapper" >
+        {cardDetails}
+      </main>
       <Footer />
     </div>
   )
