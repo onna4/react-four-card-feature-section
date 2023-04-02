@@ -2,7 +2,7 @@ export default [
     {
         heading: "Supervisor" ,
         paragraph: "Monitors activity to identify project roadblocks",
-        image: "images/icon-supervisor.svg",
+        image: "../images/icon-supervisor.svg",
         alt: "Supervisor icon"
     },
     {
