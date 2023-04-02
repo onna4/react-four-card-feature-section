@@ -2,7 +2,6 @@ import React from 'react'
 
 
 function Card(props) {
-
   return (
     <article className='card'>
       <h1 className='cardHead'>{props.heading}</h1>
