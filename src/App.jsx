@@ -8,7 +8,7 @@ import Card from "./components/Card"
 function App() {
   const cardDetails = cardData.map(card => {
     return <Card heading={card.heading} paragraph={card.paragraph}
-    image={card.image} alt={card.alt} key={card.heading} />
+    image={card.image} alt={card.alt} key={card.heading} cardType={card.cardType} />
   })
 
 

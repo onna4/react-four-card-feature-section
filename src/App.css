@@ -27,11 +27,10 @@ body {
 .wrapper {
   display: grid;
   place-items: center;
-  gap: 1rem;
 }
 .card {
   width: 90%;
-  height: auto;
+  height: 200px;
   border: 1px solid white;
   background-color: white;
   border-radius: 8px;
@@ -39,8 +38,18 @@ body {
   margin-bottom: 2rem;
   padding: 1em;
   text-align: left;
+}
+.supervisor {
   border-top: 4px solid var(--Cyan);
-
+}
+.teamBuilder {
+  border-top: 4px solid var(--Red);
+}
+.karma {
+  border-top: 4px solid var(--Orange);
+}
+.calculator {
+  border-top: 4px solid var(--Blue);
 }
 .cardHead {
   font-size: 1.4rem;
@@ -61,15 +70,17 @@ header .paragraph {
   font-size: 0.98rem;
   margin-bottom: 5em;
 }
-.head--title {
+.title {
   color: var(--Very-Dark-Blue);
   font-size: 1.5rem;
 }
-.head--title:first-of-type {
-  margin-top: 3rem;
-}
-.head--title:nth-of-type(1) {
+.thin {
   font-weight: 200;
+  margin-top: 2em;
+  margin-bottom: 0;
+}
+.bold {
+  margin-top: 0.3em;
 }
 .attribution {
   font-size: 11px;
@@ -84,17 +95,48 @@ header .paragraph {
     width: 750px;
   }
   .wrapper {
-    grid-template-columns: repeat(3, 30%);
-    grid-template-rows: 100px;
+    grid-template-columns: repeat(3, 33%);
     height: 100vh;
   }
+  .card {
+    width: 85%;
+  }
   header .paragraph {
-    margin: 0 20%;
+    margin: 0 20% 3em;
+    font-size: 0.8rem;
+  }
+  .title {
+    font-size: 1.9rem;
+  }
+  .bold {
+    margin-bottom: 0.5em;
+  }
+  .karma {
+    grid-column: 2;
+    margin-top: -1.7em;
+  }
+  .calculator {
+    margin-top: -115%;
+    grid-column: 3;
+    margin-left: 2em;
+  }
+  .teamBuilder {
+    margin-bottom: -1.8em;
+  }
+  .supervisor {
+    margin-bottom: -120%;
+    margin-right: 2em;
   }
 }
 @media (min-width: 992px){
   .App {
       width: 970px;
+  }
+  .supervisor {
+    margin-bottom: -90%;
+  }
+  .calculator {
+    margin-top: -90%;
   }
 }
 @media (min-width: 1200px){
