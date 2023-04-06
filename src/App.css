@@ -143,4 +143,16 @@ header .paragraph {
   .App {
       width: 1170px;
   }
+  .supervisor {
+    margin-bottom: -90%;
+  }
+  .calculator {
+    margin-top: -83%;
+  }
+  .teamBuilder {
+    margin-bottom: -4em;
+  }
+  .karma {
+    margin-top: -4em;
+  }
 }
