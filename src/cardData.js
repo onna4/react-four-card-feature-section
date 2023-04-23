@@ -11,7 +11,6 @@ export default [
         paragraph: "Scans our talent network to create the optimal team for your project",
         image: "images/icon-team-builder.svg",
         alt: "Team Builder icon",
-        borderColor: "var(--Red: hsl(0, 78%, 62%))",
         cardType: "teamBuilder"
     },
     {
