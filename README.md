@@ -24,7 +24,7 @@ Users should be able to:
 
 ### Screenshot
 
-![React four card feature section project screenshot](/react-four-card-feature-section.png?raw=true "Project screenshot")
+![React four card feature section project screenshot](/four-card-feature-section-master/react-four-card-feature-section.png?raw=true "Project screenshot")
 
 
 ### Links
@@ -76,7 +76,7 @@ function Card(props) {
 ## Author
 
 - Frontend Mentor - [@onna4](https://www.frontendmentor.io/profile/onna4)
-- LinkedIn - Omnia Abdelwahab (https://www.linkedin.com/in/omnia-abdelwahab-170306249)
+- LinkedIn - [@Omnia Abdelwahab](https://www.linkedin.com/in/omnia-abdelwahab-170306249)
 
 ## Acknowledgments
 
